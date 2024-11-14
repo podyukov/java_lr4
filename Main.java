@@ -61,6 +61,16 @@ public class Main {
                     System.out.println("Коробка пуста: " + box.isEmpty());
                     break;
                 }
+                case 31: {
+                    Ex31 ex31 = new Ex31();
+                    ex31.start();
+                    break;
+                }
+                case 32: {
+                    Ex32 ex32 = new Ex32();
+                    ex32.start();
+                    break;
+                }
                 default: { System.out.println("Неверный номер задачи!"); }
             }
         }
